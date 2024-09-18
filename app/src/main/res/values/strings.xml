@@ -46,4 +46,5 @@
     <string name="sample_text">sample text</string>
     <string name="role">Role</string>
     <string name="roll">Roll</string>
+    <string name="roll_dice">roll dice: %d</string>
 </resources>

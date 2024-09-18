@@ -1,9 +1,9 @@
 package learning.kotlin.android_course
 
 import android.os.Bundle
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import learning.kotlin.android_course.databinding.ActivityMainBinding
+import kotlin.random.Random
 
 class MainActivity : AppCompatActivity() {
 
@@ -14,8 +14,13 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
         binding.btnRoll.setOnClickListener {
-            Toast.makeText(this, "Button Clicked", Toast.LENGTH_SHORT).show()
+            rollDice()
         }
+    }
+
+    private fun rollDice() {
+        val randomNumber = Random.nextInt(6) + 1
+         binding.tvFirstText.text = getString(R.string.roll_dice, randomNumber)
     }
 
 }
