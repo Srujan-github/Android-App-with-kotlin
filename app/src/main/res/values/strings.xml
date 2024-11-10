@@ -47,4 +47,5 @@
     <string name="role">Role</string>
     <string name="roll">Roll</string>
     <string name="roll_dice">roll dice: %d</string>
+    <string name="image_view">image_view</string>
 </resources>
