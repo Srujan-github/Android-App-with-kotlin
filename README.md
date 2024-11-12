@@ -11,4 +11,4 @@ such as
     - ImageView
     - EditText View
 
-![alt text](Screenshot_20241112_222658.png)
+<img src="Screenshot_20241112_222658.png" width="300"/>
