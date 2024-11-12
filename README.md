@@ -11,4 +11,4 @@ such as
     - ImageView
     - EditText View
 
-![alt text](relative%20path/to/Screenshot_20241112_222658.png)
+![alt text](Screenshot_20241112_222658.png)
