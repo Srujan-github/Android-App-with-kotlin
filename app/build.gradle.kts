@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "learning.kotlin.android_course"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "learning.kotlin.android_course"
