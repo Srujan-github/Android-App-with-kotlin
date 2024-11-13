@@ -24,14 +24,16 @@
         style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/layout_margin"
+        android:layout_marginTop="@dimen/layout_margin"
+        android:background="@color/green"
+        android:backgroundTint="@color/green"
         android:fontFamily="@font/roboto"
         android:text="@string/done"
-        android:visibility="gone"
-        android:layout_marginTop="@dimen/layout_margin"
-        android:textColorLink="#4CAF50" />
+        />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/nickNameText"
         style="@style/NameTextStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
