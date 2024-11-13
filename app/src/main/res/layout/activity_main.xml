@@ -1,4 +1,4 @@
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -8,10 +8,39 @@
 
     <TextView
         android:id="@+id/txtName"
+        style="@style/NameTextStyle"
         android:gravity="center"
-        android:text="@string/name"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        style="@style/NameTextStyle" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:text="@string/name" />
+
+    <EditText
+        android:id="@+id/editNickNameText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter nick name"
+        android:inputType="textMultiLine "
+        android:text="Name" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/padding_10dp"
+        android:contentDescription="@string/star_icon"
+        android:src="@android:drawable/btn_star_big_on" />
+
+    <ScrollView
+        android:id="@+id/bio_scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/bioTextView"
+            style="@style/NameTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingMultiplier="1.2"
+            android:paddingStart="@dimen/padding"
+            android:paddingEnd="@dimen/padding"
+            android:text="@string/lorem_ipsum" />
+    </ScrollView>
+</LinearLayout>
