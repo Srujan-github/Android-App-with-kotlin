@@ -1,5 +1,12 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable
+            name="myName"
+            type="learning.kotlin.MyName" />
+    </data>
+<LinearLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -9,7 +16,7 @@
         android:id="@+id/txtName"
         style="@style/NameTextStyle"
         android:gravity="center"
-        android:text="@string/name" />
+        android:text="@={myName.name}" />
 
     <EditText
         android:id="@+id/editNickNameText"
@@ -38,6 +45,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
+        android:text="@={myName.nickName}"
         android:visibility="invisible" />
 
     <ImageView
@@ -64,3 +72,4 @@
             android:text="@string/lorem_ipsum" />
     </ScrollView>
 </LinearLayout>
+</layout>
