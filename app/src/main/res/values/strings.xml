@@ -49,4 +49,8 @@
     <string name="roll_dice">roll dice: %d</string>
     <string name="image_view">image_view</string>
     <string name="name">Sai Srujan</string>
+    <string name="bio_long_text">Hello friends\n\nI am a good person\nI am a good person\nI am a good person</string>
+    <string name="star_icon">star icon</string>
+    <string name="enter_nick_name">enter nick name</string>
+    <string name="done">Done</string>
 </resources>
