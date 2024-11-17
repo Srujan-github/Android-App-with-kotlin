@@ -11,4 +11,9 @@ such as
     - ImageView
     - EditText View
 
+### implemented Data Binding
+    - Data binding
+    - created a MyName data class
+
 <img src="Screenshot_20241112_222658.png" width="300"/>
+<img src="Screenshot_20241117_140630.png" width="300"/>
